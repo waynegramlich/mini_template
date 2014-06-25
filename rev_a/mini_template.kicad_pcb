@@ -3,9 +3,9 @@
   (general
     (links 5)
     (no_connects 0)
-    (area 0 0 0 0)
+    (area 71.847163 103.168398 126.701602 153.371602)
     (thickness 1.6)
-    (drawings 38)
+    (drawings 40)
     (tracks 6)
     (zones 0)
     (modules 4)
@@ -293,10 +293,10 @@
       (net 1 /GND))
   )
 
-  (module Mini_Template_Rev_A:OSHW_LOGO_400mil (layer F.Cu) (tedit 0) (tstamp 53AA5026)
-    (at 101.473 142.24)
+  (module Mini_Template_Rev_A:OSHW_LOGO_400mil (layer F.Cu) (tedit 53AAFEFC) (tstamp 53AAFE3C)
+    (at 101.6 137.922)
     (path /53AA4798)
-    (fp_text reference G1 (at 0 5.38734) (layer F.SilkS) hide
+    (fp_text reference G1 (at 2.667 1.143) (layer F.SilkS) hide
       (effects (font (size 0.46228 0.46228) (thickness 0.09144)))
     )
     (fp_text value OSHW_LOGO (at 0 -5.38734) (layer F.SilkS) hide
@@ -374,11 +374,17 @@
       (xy -3.07848 4.56184)) (layer F.SilkS) (width 0.00254))
   )
 
-  (gr_text "Mini_Template Rev. A 2014Jun24" (at 102.362 149.479) (layer F.SilkS)
-    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  (gr_text hardware (at 97.028 145.669) (layer F.SilkS)
+    (effects (font (size 1.27 1.27) (thickness 0.2032)) (justify left))
+  )
+  (gr_text "open source" (at 95.885 144.018) (layer F.SilkS)
+    (effects (font (size 1.27 1.27) (thickness 0.2032)) (justify left))
+  )
+  (gr_text "Mini_Template Rev. A 2014Jun25" (at 102.362 149.479) (layer F.SilkS)
+    (effects (font (size 1.27 1.27) (thickness 0.2032)))
   )
   (gr_text "Copyright (c) 2014 by Wayne Gramlich" (at 102.108 151.638) (layer F.SilkS)
-    (effects (font (size 1.5 1.5) (thickness 0.3)))
+    (effects (font (size 1.27 1.27) (thickness 0.2032)))
   )
   (gr_text A5 (at 123.317 120.777) (layer F.SilkS)
     (effects (font (size 1.27 1.27) (thickness 0.2032)) (justify left))
@@ -481,9 +487,9 @@
   (gr_line (start 76.599999 103.269999) (end 76.599999 153.270001) (angle 90) (layer F.SilkS) (width 0.2032))
   (gr_line (start 76.599999 103.269999) (end 126.600001 103.269999) (angle 90) (layer F.SilkS) (width 0.2032) (tstamp 53A9D4FB))
 
-  (segment (start 121.92 110.49) (end 119.38 110.49) (width 1.016) (layer B.Cu) (net 1))
-  (segment (start 119.38 110.49) (end 105.41 110.49) (width 1.016) (layer B.Cu) (net 1) (tstamp 53AA379F))
   (segment (start 105.41 110.49) (end 101.6 106.68) (width 1.016) (layer B.Cu) (net 1) (tstamp 53AA37A0))
+  (segment (start 119.38 110.49) (end 105.41 110.49) (width 1.016) (layer B.Cu) (net 1) (tstamp 53AA379F))
+  (segment (start 121.92 110.49) (end 119.38 110.49) (width 1.016) (layer B.Cu) (net 1))
   (segment (start 83.82 123.19) (end 81.28 123.19) (width 1.016) (layer B.Cu) (net 2))
   (segment (start 121.92 105.41) (end 119.38 105.41) (width 1.016) (layer B.Cu) (net 3))
   (segment (start 121.92 123.19) (end 119.38 123.19) (width 1.016) (layer B.Cu) (net 4))
